@@ -3,9 +3,9 @@
 ## Introduction
 A web developer portfolio being built by Rebecca Crecelius.
 
-## The app will allow users to do the following:
+## The will allow users to do the following:
 
-Be a clear and cohesive website which shares projects and web development work. 
+View the web development work of Rebecca Crecelius.
 
 ## The purpose of the project is the following:
 
