@@ -1,26 +1,26 @@
 # Portfolio
 
-##Introduction
+## Introduction
 A web developer portfolio being built by Rebecca Crecelius.
 
-##The app will allow users to do the following:
+## The app will allow users to do the following:
 
 Be a clear and cohesive website which shares projects and web development work. 
 
-##The purpose of the project is the following:
+## The purpose of the project is the following:
 
 To share work with other people.
 
-##Project is created with:
+## Project is created with:
 
 HTML5
 CSS3
 JavaScript
 
-##Project Status
+## Project Status
 Still in development.
 
-##Contact Information
+## Contact Information
 Rebecca A. Crecelius, MFA
 
 Website: rebeccacrecelius.com
