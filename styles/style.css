@@ -58,17 +58,22 @@ a:hover {
 }
 
 .profile-pic {
-	width: 30%;
+	width: 40%;
 	height: auto;
 	float: right;
 	position: relative;
 	border-radius: 50px;
 }
 
-.intro {
-	margin-top: 30%;
+#intro {
+	margin-top: 5%;
+	display: inline-block;
 }
 
+#greeting {
+	display: flex;
+	flex-direction: column;
+}
 
 h1 {
 font-size: 1.75rem;
@@ -77,9 +82,15 @@ padding-left: 1rem;
 }
 
 h2 {
+clear:both;
 font-size: 3rem;
+margin-top: 10%;
 margin-left: 1rem;
 padding-left: 1rem;
+}
+
+h3 {
+font-size: 2rem;
 }
 
 p {
@@ -97,3 +108,26 @@ padding-bottom: .75rem;
 font-size: 1rem;
 }
 
+#work{
+clear: both;
+}
+
+#work li{
+list-style-type: disc;
+padding-top: 3%;
+font-size: 1rem;
+}
+
+#work .languages li {
+float: left;
+margin: 0 20px;
+list-style-type: disc;
+}
+
+#projects{
+clear: both;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+padding-top: 2%;
+grid-column-gap: 10px;
+}
