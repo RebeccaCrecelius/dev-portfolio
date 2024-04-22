@@ -113,9 +113,12 @@ clear: both;
 }
 
 #work li{
-list-style-type: disc;
-padding-top: 3%;
+float: left;
+list-style-type: none;
+padding-top: 2%;
 font-size: 1rem;
+margin-left: 2%;
+margin-right: 2%;
 }
 
 #work .languages li {
@@ -126,8 +129,29 @@ list-style-type: disc;
 
 #projects{
 clear: both;
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-padding-top: 2%;
-grid-column-gap: 10px;
+display: flex;
+flex-wrap: wrap;
+column-gap: 10px;
+justify-content: center;
+align-items: center;
+}
+
+.project p {
+clear: both;
+font-size: 1.5rem;
+padding-left: none;
+}
+
+.title {
+margin-top: 2%;
+}
+
+
+
+#more {
+display: flex;
+flex-wrap: wrap;
+column-gap: 10px;
+justify-content: center;
+align-items: center;
 }
