@@ -155,3 +155,63 @@ column-gap: 10px;
 justify-content: center;
 align-items: center;
 }
+
+/* Form */
+
+.form-section {
+	padding-bottom: 3rem;
+}
+
+.form {
+	display: flex;
+	justify-content: left;
+}
+
+.input-container {
+	position: relative;
+	margin: 1.5rem;
+}
+
+label, input {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	top: 0px;
+	left: 0px;
+	padding: .5rem;
+	border: 1px solid black;
+}
+
+/*==============================
+Footer 
+===============================*/
+
+footer {
+clear: both;
+background: rgb(223, 222, 224);
+width: 100%;
+height: 4rem;
+}
+
+.footer-content {
+	display: inline;
+}
+
+.footer-content span {
+	float: left;
+	margin-left: 10%;
+	margin-top: 1.5rem;
+}
+
+footer ul {
+	margin-left: 75%;
+}
+
+ footer li {
+	float: left;
+	padding-right: 10px;
+	text-decoration: underline;
+	margin-top: 1.5rem;
+}
