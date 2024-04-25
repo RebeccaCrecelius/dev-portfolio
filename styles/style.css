@@ -14,7 +14,7 @@ Header
 ---------------------------------------*/
 
 header {
-	position:fixed;
+	position: fixed;
 	z-index: 100;
 	width: 100%;
 	background-color: rgb(223, 222, 224);
@@ -22,8 +22,8 @@ header {
 }
 
 #nav-bar {
-		width: 100%;
-	}
+	width: 100%;
+}
 
 .logo {
 	float: left;
@@ -78,134 +78,151 @@ Intro and About
 	display: inline-block;
 }
 
-#intro p {
-	margin-left: 1rem;
-	padding-left: 1rem;
-}
-
 #greeting {
 	display: flex;
 	flex-direction: column;
 }
 
 h1 {
-font-family: 'Pt Serif', 'Times New Roman', serif;
-font-weight: 400;
-font-size: 1.75rem;
-margin: 1rem;
-padding-left: 1rem;
+	font-family: 'Pt Serif', 'Times New Roman', serif;
+	font-weight: 400;
+	font-size: 1.75rem;
+	margin: 1.5rem 1rem 1rem 1rem;
+	padding-left: 1rem;
 }
 
 h2 {
-clear:both;
-font-size: 3rem;
-margin-top: 10%;
-margin-left: 1rem;
-font-family: "Kanit", Tahoma, sans-serif;
-font-weight: 600;
+	clear: both;
+	font-size: 2.5rem;
+	margin-top: 10%;
+	margin-left: 1rem;
+	font-family: "Kanit", Tahoma, sans-serif;
+	font-weight: 500;
 }
 
 h3 {
-font-family: "Kanit", Tahoma, sans-serif;
-font-size: 2rem;
-font-weight: 500;
+	font-family: "Kanit", Tahoma, sans-serif;
+	font-size: 1.5rem;
+	font-weight: 500;
 }
 
 p {
-font-size: 1.25rem;
-margin-bottom: 1rem;
-margin-top: 1rem;
-font-family: "Kanit", Tahoma, sans-serif;
-font-weight: 400;
+	font-size: 1.25rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	font-family: "Kanit", Tahoma, sans-serif;
+	font-weight: 400;
 }
 
-button{
-margin: 1rem;
-padding-left: 1rem;
-padding-right: 1rem;
-padding-top: .75rem;
-padding-bottom: .75rem;
-font-size: 1rem;
+#intro p,
+.title p,
+#fun-facts-title p {
+	font-family: 'Pt Serif', 'Times New Roman', serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin: 1rem;
+	padding-left: 1rem;
+}
+
+#intro #welcome {
+	margin-left: 1rem;
+	padding-left: 1rem;
+	font-family: "Kanit", Tahoma, sans-serif;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+#projects span {
+	text-decoration: underline;
+}
+
+button {
+	margin: .75rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	font-size: 1rem;
+	width: 75%;
+	font-family: "Kanit", Tahoma, sans-serif;
+	font-weight: 500;
+	margin-left: 2rem;
+}
+
+button:hover {
+	background: #292230;
+	color: #dfdee0;
+}
+
+a:hover {
+	background: #292230;
+	color: #dfdee0;
 }
 
 /*-------------------------
 Work
 -------------------------*/
 
-#work{
-clear: both;
+#work {
+	clear: both;
 }
 
-#work li{
-display: inline-block;
-list-style-type: none;
-padding-top: 2%;
-font-size: 1rem;
-margin-left: 2%;
-margin-right: 2%;
+#work li {
+	display: inline-block;
+	list-style-type: none;
+	padding-top: 2%;
+	font-size: 1rem;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 #work .languages li {
-float: left;
-margin: 0 20px;
-list-style-type: disc;
+	float: left;
+	margin: 0 20px;
+	list-style-type: disc;
 }
 
 #work ul {
 	text-align: center;
 }
 
-#projects{
-clear: both;
-display: flex;
-flex-wrap: wrap;
-column-gap: 15px;
-justify-content: center;
-align-items: center;
+#projects {
+	clear: both;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 15px;
+	justify-content: center;
+	align-items: center;
 }
 
 .project p {
-clear: both;
-padding-left: none;
+	clear: both;
+	padding-left: none;
 }
 
 .title {
-margin-bottom: 2%;
+	margin-bottom: 2%;
 }
 
-.title p {
-	font-family: 'Pt Serif', 'Times New Roman', serif;
-	font-weight: 400;
-	font-size: 1.75rem;
-	margin-left: 1rem;
-	padding-left: 1rem;
-}
 
 .project img {
 	margin-top: .25rem;
 }
+
 /*---------------------------------------------
 More
 ---------------------------------------------*/
 
-#fun-facts-title p {
-	font-family: 'Pt Serif', 'Times New Roman', serif;
-font-weight: 400;
-font-size: 1.75rem;
-	margin-left: 1rem;
-padding-left: 1rem;
-}
-
 #more {
-margin-left: 1rem;
-display: flex;
-flex-wrap: wrap;
-column-gap: 8%;
-/*justify-content: center;
+	margin-left: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 8%;
+	/*justify-content: center;
 align-items: center;*/
 }
 
-#more .design-work img, 
+#more .design-work img,
 #more .company img {
 	display: block;
 	margin-left: auto;
@@ -215,7 +232,7 @@ align-items: center;*/
 
 #more h3 {
 	padding-left: 1rem;
-/*	text-align: center; */
+	/*	text-align: center; */
 	margin-bottom: 2.5%;
 }
 
@@ -224,19 +241,17 @@ align-items: center;*/
 }
 
 
-/* Form */
+/*=============================
+Form 
+=============================*/
 
 .form-section h3 {
+	clear: both;
+	font-size: 2.5rem;
+	margin-left: 1rem;
+	margin-top: 7%;
 	font-family: "Kanit", Tahoma, sans-serif;
-	font-weight: 600;
-	font-size: 3rem;
-	padding-left: 1rem;
-}
-
-.web-update {
-	font-family: 'Pt Serif', 'Times New Roman', serif;
-	font-weight: 400;
-	font-size: 1.75rem;
+	font-weight: 500;
 }
 
 .form-section {
@@ -246,7 +261,19 @@ align-items: center;*/
 .form-section p {
 	margin-left: 1rem;
 	padding-left: 1rem;
+	font-family: "Kanit", Tahoma, sans-serif;
+	font-size: 1.5rem;
+	font-weight: 500;
 }
+
+#web-update {
+	font-family: 'Pt Serif', 'Times New Roman', serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin: 1rem;
+	padding-left: 1rem;
+}
+
 
 .form {
 	display: flex;
@@ -255,30 +282,61 @@ align-items: center;*/
 
 .input-container {
 	position: relative;
-	margin: 1.5rem;
+	margin: .5rem 1rem 1rem 1rem;
 }
 
-label, input {
+label,
+input {
 	display: flex;
 	flex-direction: column;
 }
 
+label {
+	padding-bottom: .5rem;
+	font-family: 'Pt Serif', 'Times New Roman', serif;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
 input {
+	height: 2.5rem;
 	top: 0px;
 	left: 0px;
-	padding: .5rem;
+	width: 100%;
+	padding: .5rem .5rem .5rem 1rem;
 	border: 1px solid black;
+	font-size: 1.25rem;
+	font-family: "Kanit", Tahoma, sans-serif;
+	font-weight: 400;
 }
+
+.form .submitBtn {
+	align-items: center;
+	padding: 1rem;
+	justify-content: center;
+	font-size: 1rem;
+	font-family: "Kanit", Tahoma, sans-serif;
+	font-weight: 500;
+	width: 75%;
+	margin-left: 1rem;
+}
+
+.submitBtn:hover {
+	background: #292230;
+	color: #dfdee0;
+}
+
+
 
 /*==============================
 Footer 
 ===============================*/
 
 footer {
-clear: both;
-background: rgb(223, 222, 224);
-width: 100%;
-height: 4rem;
+	clear: both;
+	background: rgb(223, 222, 224);
+	width: 100%;
+	height: 4rem;
 }
 
 .footer-content {
@@ -289,15 +347,17 @@ height: 4rem;
 	float: left;
 	margin-left: 10%;
 	margin-top: 1.5rem;
+	font-family: "Kanit", Tahoma, sans-serif;
+	font-weight: 500;
 }
 
 footer ul {
-	margin-left: 75%;
+	margin-left: 80%;
 }
 
- footer li {
+footer li {
 	float: left;
 	padding-right: 10px;
-	text-decoration: underline;
+	text-decoration: none;
 	margin-top: 1.5rem;
 }

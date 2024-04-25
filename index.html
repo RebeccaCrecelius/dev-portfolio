@@ -11,7 +11,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800&family=PT+Serif:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -35,31 +37,32 @@
         <section id="intro">
             <h2>Hello!</h2>
             <h1>My name is Rebecca Crecelius.</h1>
-            <p>Welcome to my Dev site!</h1>
-                <br>
-                <button type="button">See Work</button>
-                <br>
-                <button type="button">Play Game</button>
+            <p id="welcome">Welcome to my Dev site!</p>
+            <br>
+            <button type="button"><a href="#portfolio">See Work</a></button>
+            <br>
+            <button type="button">Play Game</button>
         </section>
         <!-- Work -->
         <section id="work">
 
             <section class="title">
-                <h2>Work</h2>
+                <h2><a id="portfolio">Work</a></h2>
                 <p>Check-out projects I am currently working on.</p>
             </section>
 
             <section id="projects">
                 <section class="project">
-                    <h3 class="title">Title 1</h3>
-                    <img src="https://placehold.co/350x350" alt="Project 1">
+                    <h3 class="title">Twemary</h3>
+                    <img src="images/Twemary.jpg" alt="Project 1">
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
                     </ul>
-                        <p>Description of the project</p>
-                        <span><a href="#">GitHub Link</a></span>
+                    <p>An ice cream locator app.</p>
+                    <span><a href="https://github.com/RebeccaCrecelius/twemary.git" target="_blank">GitHub
+                            Link</a></span>
                 </section>
 
                 <section class="project">
@@ -70,8 +73,8 @@
                         <li>CSS</li>
                         <li>JavaScript</li>
                     </ul>
-                        <p>Description of the project</p>
-                        <span><a href="#">GitHub Link</a></span>
+                    <p>Description of the project</p>
+                    <span><a href="#" target="_blank">GitHub Link</a></span>
                 </section>
 
                 <section class="project">
@@ -82,8 +85,8 @@
                         <li>CSS</li>
                         <li>JavaScript</li>
                     </ul>
-                        <p>Description of the project</p>
-                        <span><a href="#">GitHub Link</a></span>
+                    <p>Description of the project</p>
+                    <span><a href="#" target="_blank">GitHub Link</a></span>
                 </section>
             </section>
         </section>
@@ -114,45 +117,45 @@
 
         <!-- Contact Form -->
         <section class="form-section">
-        
-        <h3>Let's connect!</h3>
-        <p class="web-update">Looking to update your website?</p>
-        <p>Send a message.</p>
 
-        <section class="form">
-            <form method="post" action="#">
+            <h3>Let's connect!</h3>
+            <p id="web-update">Looking to update your website?</p>
+            <p>Send a message.</p>
 
-                <div class="input-container">
-                <label for="fname">First Name:</label>
-                <input type="text" name="fname" id="fname" placeholder="Jane" required />
-                </div>
+            <section class="form">
+                <form method="post" action="#">
 
-                <div class="input-container">
-                <label for="lname">Last Name:</label>
-                <input type="text" name="lname" id="fname" placeholder="Smith" required />
-                </div>
+                    <div class="input-container">
+                        <label for="fname">First Name:</label>
+                        <input type="text" name="fname" id="fname" placeholder="Jane" required />
+                    </div>
 
-                <div class="input-container">
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="abc@email.com" required />
-                </div>
+                    <div class="input-container">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="lname" id="fname" placeholder="Smith" required />
+                    </div>
 
-                <input type="submit" class="submitBtn" value="Submit">
+                    <div class="input-container">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="abc@email.com" required />
+                    </div>
+
+                    <input type="submit" class="submitBtn" value="Submit">
+            </section>
         </section>
-    </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer-nav">
         <section class="footer-content">
-        <span>&copy 2024 Rebecca Crecelius</span>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href=contact.html>Contact</a></li>
-            </ul>
-        </nav>
-    </section>
+            <span>&copy 2024 Rebecca Crecelius</span>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href=contact.html>Contact</a></li>
+                </ul>
+            </nav>
+        </section>
     </footer>
     <script src="/main.js"></script>
 </body>
