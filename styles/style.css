@@ -361,3 +361,96 @@ footer li {
 	text-decoration: none;
 	margin-top: 1.5rem;
 }
+
+/*=============================
+Contact Page Form 
+=============================*/
+
+.form-section {
+	padding-bottom: 3rem;
+}
+
+.contact-page-form {
+	float: right;
+	margin-left: 20%;
+	margin-right: 20%
+}
+
+.contact-page-form label {
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	font-family: 'Pt Serif', 'Times New Roman', serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.input-container {
+	position: relative;
+	margin: .5rem 1rem 1rem 1rem;
+}
+
+input {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	height: 2.5rem;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: .5rem .5rem .5rem 1rem;
+	border: 1px solid black;
+	font-size: 1.25rem;
+	font-family: "Kanit", Tahoma, sans-serif;
+	font-weight: 400;
+}
+
+.contact-page-form .submitBtn {
+	align-items: center;
+	padding: 1rem;
+	justify-content: center;
+	font-size: 1rem;
+	font-family: "Kanit", Tahoma, sans-serif;
+	font-weight: 500;
+	width: 100%;
+	margin-top: 5%;
+	margin-left: 0;
+}
+
+.submitBtn:hover {
+	background: #292230;
+	color: #dfdee0;
+}
+
+#contact-info {
+	display: flex;
+	flex-direction: column;
+}
+
+#contact-info h1 {
+	font-size: 2.5rem;
+	margin-top: 10%;
+	font-family: "Kanit", Tahoma, sans-serif;
+	font-weight: 500;
+	margin-left: 18%;
+	margin-right: 22%;
+	text-align: left;
+}
+
+#contact-info p {
+	font-family: "Kanit", Tahoma, sans-serif;
+	font-size: 1.5rem;
+	font-weight: 500;
+	width: 55%;
+	text-align: left;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+textarea {
+	margin-top: 5%;
+	width: 100%;
+}
