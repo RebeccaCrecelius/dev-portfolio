@@ -202,19 +202,27 @@ Work
 	align-items: center;
 }
 
+.project img {
+	width: 350px;
+	height: 350px;
+}
+
 .project p {
-	clear: both;
+	max-width: 100%;
+	margin-top: 1rem;
+	height: 1.5rem;
 	padding-left: none;
 }
 
 .title {
-	margin-bottom: 2%;
+	margin-bottom: .25rem;
+	padding-bottom: .25rem;
 }
 
 .project span {
 	font-family: 'Pt Serif', 'Times New Roman', serif;
 	font-weight: 400;
-	color:  blue;
+	color: blue;
 }
 
 .project span a {
@@ -261,7 +269,10 @@ align-items: center;*/
 	margin-bottom: 2.5%;
 }
 
-
+#more p {
+	margin-bottom: .25rem;
+	padding-bottom: .25rem;
+}
 
 /*=============================
 Form 
@@ -348,7 +359,20 @@ input {
 	color: #dfdee0;
 }
 
+/*
+.form-section img {
+	width: 15%;
+	height: 15%;
+	margin-right: 10%;
+}
+*/
+.form-group {
+	display: flex;
+}
 
+.form-group .form .submitBtn {
+	border: 3px solid;
+}
 
 /*==============================
 Footer 
@@ -396,7 +420,7 @@ Contact Page Form
 .contact-page-form {
 	float: right;
 	margin-left: 20%;
-	margin-right: 20%
+	margin-right: 20%;
 }
 
 .contact-page-form label {
@@ -441,6 +465,7 @@ input {
 	width: 100%;
 	margin-top: 5%;
 	margin-left: 0;
+	border: 3px solid;
 }
 
 .submitBtn:hover {
@@ -455,11 +480,12 @@ input {
 
 #contact-info h1 {
 	font-size: 2.5rem;
-	margin-top: 10%;
+	margin-top: 4%;
 	font-family: "Kanit", Tahoma, sans-serif;
 	font-weight: 500;
 	margin-left: 18%;
 	margin-right: 22%;
+	margin-bottom: 5%;
 	text-align: left;
 }
 
@@ -476,4 +502,26 @@ input {
 textarea {
 	margin-top: 5%;
 	width: 100%;
+}
+
+.follow h2 {
+	padding-bottom: 1.5rem;
+}
+
+ul.follow-links li {
+	display: inline;
+}
+
+ul.follow-links img {
+	width: 4%;
+	height: auto;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	margin-bottom: 2rem;
+}
+
+.email {
+	text-decoration: underline;
+	font-family: "Kanit", Tahoma, sans-serif;
+	color: blue;
 }
