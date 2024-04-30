@@ -14,6 +14,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800&family=PT+Serif:wght@400;700&display=swap"
         rel="stylesheet">
+
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 </head>
 
 <body>
@@ -26,6 +28,11 @@
                 <ul class="main-nav">
                     <li><a href="#">Home</a></li>
                     <li><a href=contact.html>Contact</a></li>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
                 </ul>
             </nav>
         </section>
@@ -34,15 +41,24 @@
     <main>
         <!--Intro-->
         <img src="images/rc-photo-ai-clothes.png" alt="Picture of Rebecca Crecelius" class="profile-pic">
+        <div id="hotspot1" class="hotspot">
+            <div class="empty-text">Where do catchers sit at lunch?
+            </div>
+            <div class="hover-popup">
+                Behind the plate.
+            </div>
+        </div>
+        \ </div>
         <section id="intro">
             <h2>Hello!</h2>
             <h1>My name is Rebecca Crecelius.</h1>
-            <p id="welcome">Welcome to my Dev site!</p>
+            <p>Welcome to my Dev site!</p>
             <br>
             <button type="button"><a href="#portfolio">See Work</a></button>
             <br>
             <!----     <button type="button">Play Game</button> -->
         </section>
+
         <!-- Work -->
         <section id="work">
 

@@ -1,10 +1,12 @@
-let element = document.getElementByID("welcome");
-let opacity = 0;
-let fadeIn = setInterval(() => {
-    element.style.opacity = opacity;
-    opacity += 0.01;
-}, 2s);
+$(document).ready(function () {
+    $('.hotspot').click(function () {
+        $(this).toggleClass('clicked');
+    });
+});
 
-if (opacity >= 1) {
-    clearInterval(fadeIn);
+window.addEventListener("scroll", runOnScroll);
+
+function runOnScroll(){
+    $('html,body').animate({scrollTop: 0},1000);
+    window.removeEventListener("scroll", runOnScroll);
 }
