@@ -6,8 +6,8 @@ $(document).ready(function () {
 
 window.addEventListener("scroll", runOnScroll);
 
-function runOnScroll(){
-    $('html,body').animate({scrollTop: 0},1000);
+function runOnScroll() {
+    $('html,body').animate({ scrollTop: 0 }, 1000);
     window.removeEventListener("scroll", runOnScroll);
 }
 

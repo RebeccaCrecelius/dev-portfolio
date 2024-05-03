@@ -14,6 +14,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800&family=PT+Serif:wght@400;700&display=swap"
         rel="stylesheet">
+
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 </head>
 
 <body>
@@ -25,7 +27,7 @@
             <nav class="navbar">
                 <ul class="main-nav">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href=contact.html class="nav-link">Contact</a>
@@ -49,13 +51,13 @@
                 <form method="post" action="#">
 
                     <label for="fname2">First Name:</label>
-                    <input type="text" name="fname" id="fname" placeholder="Jane" required />
+                    <input type="text" name="fname" id="fname" placeholder="Jane" class="input" required />
 
                     <label for="lname2">Last Name:</label>
-                    <input type="text" name="lname" id="fname" placeholder="Smith" required />
+                    <input type="text" name="lname" id="fname" placeholder="Smith" class="input" required />
 
                     <label for="email2">Email:</label>
-                    <input type="email" name="email" id="email" placeholder="abc@email.com" required />
+                    <input type="email" name="email" id="email" placeholder="abc@email.com" class="input" required />
 
                     <textarea cols="50" rows="20"></textarea>
 
@@ -93,7 +95,7 @@
             </nav>
         </section>
     </footer>
-    <script src="/scripts/main.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>

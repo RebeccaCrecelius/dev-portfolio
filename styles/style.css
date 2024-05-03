@@ -609,11 +609,37 @@ Additional Styles
 	background-color: #101010;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
+	.profile-pic {
+		display: none;
+	}
+
 	#hotspot1 {
 		display: none;
 	}
 
+	#intro h2 {
+		margin-top: 2rem;
+	}
+
+	.project.tbd {
+		margin-top: 2rem;
+	}
+
+	.design-work h3 {
+		margin-top: 1rem;
+	}
+
+	.company h3 {
+		margin-top: 2rem;
+	}
+
+	.main-nav li:first-child {
+		padding-left: 65%;
+	}
+}
+
+@media only screen and (max-width: 760px) {
 
 	#intro p {
 		margin-bottom: .5rem;
@@ -642,8 +668,28 @@ Additional Styles
 		margin-top: 2rem;
 	}
 
+	/*
 	.logo {
 		margin-left: 20px;
+		padding-top: 2%;
+	}
+*/
+	.logo {
+		display: none;
+	}
+
+	.contact-page-form {
+		float: right;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	#contact-info h1 {
+		margin-top: 5rem;
+	}
+
+	ul.follow-links img {
+		width: 10%;
 	}
 
 	#nav-bar {
@@ -687,14 +733,10 @@ Additional Styles
 		margin: 2.5rem 0;
 	}
 
-	.logo {
-		padding-top: 2%;
-	}
-
 	.hamburger {
 		display: inline-block;
 		cursor: pointer;
-		padding-left: 70%;
+		padding-left: 80%;
 		margin-top: 5%;
 	}
 
@@ -708,13 +750,5 @@ Additional Styles
 
 	.hamburger.active .bar:nth-child(3) {
 		transform: translateY(-8px) rotate(-45deg);
-	}
-}
-
-
-
-@media screen and (max-width: 400px) {
-	.profile-pic {
-		display: none;
 	}
 }
