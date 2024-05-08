@@ -167,7 +167,7 @@ button:hover a {
 }
 
 /*------------------------
-Test Code
+Hotspot
 ------------------------*/
 
 #hotspot {
@@ -668,16 +668,15 @@ Additional Styles
 		margin-top: 2rem;
 	}
 
-	/*
 	.logo {
 		margin-left: 20px;
-		padding-top: 2%;
+		padding-top: 4%;
 	}
-*/
+/*
 	.logo {
 		display: none;
 	}
-
+*/
 	.contact-page-form {
 		float: right;
 		margin-left: 5%;
@@ -719,9 +718,19 @@ Additional Styles
 		font-size: 1.5rem;
 		margin-bottom: .5rem;
 	}
-
+/*
 	.footer-links {
 		display: none;
+	}
+*/
+
+	.footer-content span {
+		margin-left: 5%;
+	}
+
+	footer ul {
+		margin-left: 60%;
+		padding-left: 5px;
 	}
 
 	.main-nav.active {
@@ -752,3 +761,57 @@ Additional Styles
 		transform: translateY(-8px) rotate(-45deg);
 	}
 }
+
+@media only screen and (max-width: 5860px) {
+	.hamburger {
+		padding-left: 70%;
+	}
+}
+
+@media only screen and (max-width: 4600px) {
+	.footer-content span {
+		margin-left: 5%;
+	}
+
+	footer ul {
+		margin-left: 5%;
+		padding-left: 5px;
+	}
+
+	.footer-content span {
+		float: right;
+		margin-right: 5%;
+		margin-top: 1.5rem;
+		font-family: "Kanit", Tahoma, sans-serif;
+		font-weight: 500;
+	}
+}
+
+@media only screen and (max-width: 402px) {
+	footer {
+		height: 7rem;
+	}
+
+	#intro h2 {
+		padding-top: 1rem;
+	}
+
+	.project img {
+		width: 225px;
+		height: 225px;
+	}
+
+	#projects .project p {
+		margin-bottom: 1.5rem;
+	}
+
+	#projects .project {
+			align-items: center;
+		}
+	}
+
+	@media only screen and (max-width: 404px) {
+		footer {
+			height: 8rem;
+		}
+	}
