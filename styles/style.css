@@ -337,6 +337,15 @@ align-items: center;*/
 #more p {
 	margin-bottom: .25rem;
 	padding-bottom: .25rem;
+	text-decoration: underline;
+	color: blue;
+	font-family: 'Pt Serif', 'Times New Roman', serif;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+#more p a {
+	color: blue;
 }
 
 /*=============================
@@ -651,7 +660,6 @@ Additional Styles
 	}
 
 	#fun-facts {
-
 		display: none;
 	}
 
