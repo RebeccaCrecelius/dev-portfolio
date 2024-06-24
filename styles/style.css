@@ -785,9 +785,9 @@ Additional Styles
 	.hamburger.active .bar:nth-child(3) {
 		transform: translateY(-8px) rotate(-45deg);
 	}
-	*/
-}
 
+}
+*/
 @media only screen and (min-width: 760px) {
 	#hamburger-menu {
 		display: none;
@@ -811,6 +811,7 @@ Additional Styles
 	}
 }
 */
+
 
 @media only screen and (max-width:560px) {
 	.hamburger-button {
