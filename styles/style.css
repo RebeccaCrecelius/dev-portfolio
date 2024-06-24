@@ -600,6 +600,35 @@ ul.follow-links img {
 /*==============================
 Additional Styles
 ==============================*/
+.hamburger-button {
+	background-color: #333;
+	color: white;
+	padding: 15px;
+	font-size: 24px;
+	cursor: pointer;
+	width: 5%;
+	height: auto;
+	border-radius: 5%;
+	float: right;
+ }
+
+ .nav-links {
+	clear:both;
+	display: none;
+	background-color: #333;
+	color: white;
+	width: 100%;
+ }
+ .nav-links a {
+	display: block;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+ }
+ .nav-links a:hover {
+	background-color: #111;
+ }
+
 
 .hamburger {
 	display: none;
@@ -737,7 +766,7 @@ Additional Styles
 	.nav-item {
 		margin: 2.5rem 0;
 	}
-
+/*
 	.hamburger {
 		display: inline-block;
 		cursor: pointer;
@@ -756,11 +785,44 @@ Additional Styles
 	.hamburger.active .bar:nth-child(3) {
 		transform: translateY(-8px) rotate(-45deg);
 	}
+	*/
 }
 
+@media only screen and (min-width: 760px) {
+	#hamburger-menu {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	.hamburger-button {
+		margin-right: 5%;
+		width: 10%;
+	}
+	#hamburger-menu {
+		display: block;
+	}
+}
+
+/*
 @media only screen and (max-width: 5860px) {
 	.hamburger {
 		padding-left: 70%;
+	}
+}
+*/
+
+@media only screen and (max-width:560px) {
+	.hamburger-button {
+		margin-right: 7%;
+		width: 30%;
+	}
+}
+
+@media only screen and (max-width:303px) {
+	.hamburger-button {
+		margin-right: 7%;
+		width: 30%;
 	}
 }
 
@@ -811,3 +873,5 @@ Additional Styles
 			height: 8rem;
 		}
 	}
+
+
