@@ -766,7 +766,7 @@ Additional Styles
 	.nav-item {
 		margin: 2.5rem 0;
 	}
-/*
+
 	.hamburger {
 		display: inline-block;
 		cursor: pointer;
@@ -787,45 +787,16 @@ Additional Styles
 	}
 
 }
-*/
-@media only screen and (min-width: 760px) {
-	#hamburger-menu {
-		display: none;
-	}
-}
 
-@media only screen and (max-width: 760px) {
-	.hamburger-button {
-		margin-right: 5%;
-		width: 10%;
-	}
-	#hamburger-menu {
-		display: block;
-	}
-}
 
-/*
+
 @media only screen and (max-width: 5860px) {
 	.hamburger {
 		padding-left: 70%;
 	}
 }
-*/
 
 
-@media only screen and (max-width:560px) {
-	.hamburger-button {
-		margin-right: 7%;
-		width: 30%;
-	}
-}
-
-@media only screen and (max-width:303px) {
-	.hamburger-button {
-		margin-right: 7%;
-		width: 30%;
-	}
-}
 
 @media only screen and (max-width: 4600px) {
 	.footer-content span {
