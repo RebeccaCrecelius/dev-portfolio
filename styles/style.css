@@ -600,7 +600,7 @@ ul.follow-links img {
 /*==============================
 Additional Styles
 ==============================*/
-.hamburger-button {
+/*.hamburger-button {
 	background-color: #333;
 	color: white;
 	padding: 15px;
@@ -628,7 +628,7 @@ Additional Styles
  .nav-links a:hover {
 	background-color: #111;
  }
-
+*/
 
 .hamburger {
 	display: none;
@@ -636,12 +636,12 @@ Additional Styles
 
 .hamburger img {
 	display: block;
-	width:2rem;
+	width:2.25rem;
 	height: auto;
 	margin: .05rem auto;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	background-color: #101010;
+	background-color: rgb(223, 222, 224);
 }
 
 @media only screen and (max-width: 1000px) {
@@ -722,7 +722,7 @@ Additional Styles
 	}
 
 	#nav-bar {
-		padding-bottom: 30px;
+		padding-bottom: 20px;
 	}
 
 	.main-nav li:first-child {
@@ -735,8 +735,10 @@ Additional Styles
 		left: -100%;
 		top: 2.5rem;
 		flex-direction: column;
-		background-color: white;
-		width: 50%;
+		background-color: hsla(360, 7%, 100%, 0.95);
+		font-size: 1.5rem;
+		font-weight: 600;
+		width: 75%;
 		height: 20rem;
 		border-radius: 10px;
 		text-align: center;
@@ -773,6 +775,7 @@ Additional Styles
 		padding-left: 80%;
 		margin-top: 5%;
 	}
+/*
 
 	.hamburger.active .bar:nth-child(2) {
 		opacity: 0;
@@ -787,6 +790,7 @@ Additional Styles
 	}
 
 }
+*/
 
 
 
@@ -845,5 +849,3 @@ Additional Styles
 			height: 8rem;
 		}
 	}
-
-
