@@ -798,6 +798,11 @@ Additional Styles
 	border: solid black 2px;
 }
 
+.submitBtn {
+	text-align: center;
+}
+}
+
 @media only screen and (max-width: 5860px) {
 	.hamburger {
 		padding-left: 70%;
