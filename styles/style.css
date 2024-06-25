@@ -791,12 +791,12 @@ Additional Styles
 
 }
 */
-.submitBtn {
-	background-color: #BBB1C8;
+.submitBtn,
+.work-button {
+	background-color: rgb(223, 222, 224);
 	color: rgb(38, 38, 38);
 	border: solid black 2px;
 }
-
 
 @media only screen and (max-width: 5860px) {
 	.hamburger {
