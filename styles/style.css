@@ -791,7 +791,11 @@ Additional Styles
 
 }
 */
-
+.submitBtn {
+	background-color: #BBB1C8;
+	color: rgb(38, 38, 38);
+	border: solid black 2px;
+}
 
 
 @media only screen and (max-width: 5860px) {
