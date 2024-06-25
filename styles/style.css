@@ -799,7 +799,8 @@ Additional Styles
 }
 
 .submitBtn {
-	text-align: center;
+	padding-left: 30%;
+	padding-right: 30%
 }
 }
 
