@@ -795,7 +795,7 @@ Additional Styles
 */
 .submitBtn,
 .work-button,
-.submitBtn2 {
+.submitBtn2  {
 	background-color: rgb(223, 222, 224);
 	color: rgb(38, 38, 38);
 	border: solid black 2px;
@@ -808,6 +808,18 @@ Additional Styles
 	padding-bottom: .75rem;
 	font-size: 1rem;
 	width: 75%;
+	font-family: "Kanit", Tahoma, sans-serif;
+	font-weight: 500;
+	border: 3px solid;
+}
+
+.submitBtn2 {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	font-size: 1rem;
+	width: 100%;
 	font-family: "Kanit", Tahoma, sans-serif;
 	font-weight: 500;
 	border: 3px solid;
