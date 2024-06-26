@@ -835,6 +835,13 @@ Additional Styles
 	border: 2px solid;
 }
 
+header {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	top: 0rem;
+}
+
 }
 
 @media only screen and (max-width: 586px) {
