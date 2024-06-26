@@ -429,8 +429,7 @@ input {
 	font-weight: 400;
 }
 
-.form .submitBtn,
-.submitBtn3 {
+.form .submitBtn {
 	justify-content: center;
 	font-size: 1rem;
 	font-family: "Kanit", Tahoma, sans-serif;
@@ -439,9 +438,7 @@ input {
 	margin-left: 1rem;
 }
 
-.submitBtn:hover,
-.submitBtn2:hover,
-.submitBtn3:hover {
+.submitBtn:hover {
 	background: #292230;
 	color: #dfdee0;
 }
@@ -544,8 +541,7 @@ input {
 }
 
 .submitBtn:hover,
-.submitBtn2:hover,
-.submitBtn3:hover {
+.submitBtn2:hover {
 	background: #292230;
 	color: #dfdee0;
 }
@@ -799,8 +795,7 @@ Additional Styles
 */
 .submitBtn,
 .work-button,
-.submitBtn2,
-.submitBtn3 {
+.submitBtn2{
 	background-color: rgb(223, 222, 224);
 	color: rgb(38, 38, 38);
 	border: solid black 2px;
