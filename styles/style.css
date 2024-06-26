@@ -825,6 +825,16 @@ Additional Styles
 	border-radius: 0;
 }
 
+.home-form .submitBtn {
+	padding-left: 40%;
+	padding-right: 50%;
+	font-size: 1rem;
+	width: 100%;
+	font-family: "Kanit", Tahoma, sans-serif;
+	font-weight: 500;
+	border: 2px solid;
+}
+
 }
 
 @media only screen and (max-width: 586px) {
