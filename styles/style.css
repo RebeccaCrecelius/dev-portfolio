@@ -678,6 +678,12 @@ Additional Styles
 
 @media only screen and (max-width: 760px) {
 
+	header {
+		position: sticky;
+		top: 0;
+	}
+	
+
 	#intro p {
 		margin-bottom: .5rem;
 	}
