@@ -834,11 +834,6 @@ header {
 }
 
 @media only screen and (max-width: 586px) {
-	
-	header {
-		position: sticky;
-		top: 0;
-	}
 
 	.hamburger {
 		padding-left: 70%;
@@ -846,7 +841,7 @@ header {
 
 	#home-form.submitBtn {
 		padding-left: 35%;
-		padding-right: 55%;
+		padding-right: 54.8%;
 		padding-bottom: 7%;
 		padding-top: 5%;
 		font-size: 1rem;
