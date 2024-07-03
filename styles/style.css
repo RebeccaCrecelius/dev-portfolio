@@ -798,7 +798,7 @@ Additional Styles
 	background: rgb(223, 222, 224);
 	color: rgb(38, 38, 38);
 	border: solid black 2px;
-	justify-content center;
+	justify-content: center;
 }
 
 .submitBtn {
