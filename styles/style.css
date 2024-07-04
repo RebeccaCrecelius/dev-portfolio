@@ -814,6 +814,7 @@ Additional Styles
 }
 
 .submitBtn2 {
+	padding-top: .75rem;
 	padding-left: 40%;
 	padding-right: 50%;
 	padding-bottom: 1.5rem;
@@ -824,7 +825,7 @@ Additional Styles
 	border: 2px solid;
 	border-radius: 0;
 }
-}
+
 
 @media only screen and (max-width: 586px) {
 
