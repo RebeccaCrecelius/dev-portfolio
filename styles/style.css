@@ -802,17 +802,11 @@ Additional Styles
 }
 
 .submitBtn {
-/*
+	text-align: center;
 	padding-left: 1rem;
 	padding-right: 1rem;
-
 	padding-top: .75rem;
 	padding-bottom: .75rem;
-/*  */
-	text-align: center;
-	display:table-cell;
-	vertical-align:middle;
-	horizontal-align
 	font-size: 1rem;
 	width: 75%;
 	font-family: "Kanit", Tahoma, sans-serif;
