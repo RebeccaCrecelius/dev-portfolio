@@ -282,8 +282,8 @@ Work
 }
 
 .project img {
-	width: 350px;
-	height: 350px;
+	width: 375px;
+	height: auto;
 }
 
 .project p {
@@ -312,6 +312,21 @@ Work
 .project img {
 	margin-top: .25rem;
 	border: solid;
+}
+
+.recipe-finder {
+	margin-top: 3%;
+	margin-left: 0;
+}
+
+.recipe-finder img {
+	width: 400px;
+	height: auto;
+}
+
+.recipe-finder span {
+	display: block;
+	margin-bottom: 2px;
 }
 
 /*---------------------------------------------
