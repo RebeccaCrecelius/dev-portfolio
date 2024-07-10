@@ -288,15 +288,14 @@ Work
 }
 
 #work ul {
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 
 #work li {
 	display: inline-block;
-	list-style-type: none;
 	padding-top: 2%;
 	font-size: 1rem;
-	margin-left: 2%;
+	margin-left: 0;
 	margin-right: 2%;
 	font-family: 'Pt Serif', 'Times New Roman', serif;
 	font-weight: 400;
@@ -304,13 +303,13 @@ Work
 
 #work .languages li {
 	float: left;
-	margin: 0 20px 10px 0;
+	margin: 0 20px 0 0;
 	list-style-type: disc;
 }
 
 #work ul {
 	margin-top: .75rem;
-	text-align: center;
+	text-align: left;
 }
 
 .project img {
@@ -324,22 +323,32 @@ Work
 	padding-left: none;
 	font-weight: 300;
 	font-size: 1rem;
+	line-height: 1.25;
+	padding-bottom: 7%;
+}
+
+#projects .recipe-finder p {
+	padding-bottom: 11%;
 }
 
 .title {
 	margin-bottom: .25rem;
-	padding-bottom: .25rem;
+	padding-bottom: .4rem;
 }
 
 .project span {
 	font-family: 'Pt Serif', 'Times New Roman', serif;
 	font-weight: 400;
 	color: blue;
-	padding-bottom: .75rem;
+	padding-bottom: .5rem;
 }
 
 .project span a {
 	color: blue;
+}
+
+.project span:last-child {
+	padding-top: 2%;
 }
 
 .project img {
@@ -348,12 +357,6 @@ Work
 	box-shadow: 10px 5px 5px #292230;
 	margin-left: 0;
 }
-
-#work #projects .recipe-finder p {
-	margin-bottom: 13%;
-}
-
-
 
 .recipe-finder span {
 	display: flex;
