@@ -338,6 +338,7 @@ More
 	display: flex;
 	flex-wrap: wrap;
 	column-gap: 8%;
+	flex-direction: column;
 }
 
 #more .design-work img,
@@ -346,6 +347,7 @@ More
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 1rem;
+	width: 40%;
 }
 
 #more embed {
