@@ -268,6 +268,10 @@ Work
 	padding-right: 5%;
 }
 
+#work #projects #project-info {
+	margin-bottom: 10%;
+}
+
 .title .projects {
 	margin-left: 0;
 	padding-left: 1rem;
@@ -324,11 +328,6 @@ Work
 	font-weight: 300;
 	font-size: 1rem;
 	line-height: 1.25;
-	padding-bottom: 7%;
-}
-
-#projects .recipe-finder p {
-	padding-bottom: 11%;
 }
 
 .title {
@@ -352,7 +351,7 @@ Work
 }
 
 .project img {
-	margin-top: 8%;
+	margin-top: 7%;
 	border: 1px solid #292230;
 	box-shadow: 10px 5px 5px #292230;
 	margin-left: 0;
@@ -753,6 +752,7 @@ Quiz
 	background: rgb(223, 222, 224);
 	padding: 1rem 1rem 1.25rem 2rem;
 	margin-top: 1rem;
+	width: 100%;
 }
 .quiz-container {
     box-sizing: border-box;
@@ -844,6 +844,12 @@ Additional Styles
 	background-color: rgb(223, 222, 224);
 }
 
+@media only screen and (max-width: 1260px) {
+	#work #projects #project-info {
+		margin-bottom: 18%;
+	}
+}
+
 @media only screen and (min-width: 1000px) {
 	.footer-links {
 		display: none;
@@ -880,13 +886,35 @@ Additional Styles
 	}
 }
 
+
 @media only screen and (max-width: 760px) {
+	.hero {
+		padding-top: 20%;
+	}
+
+	#work {
+		width: 100%;
+	}
+
+	#projects {
+		flex-direction: column;
+
+	}
+
+	#projects .project {
+		width: 100%;
+	}
+
 	#intro p {
 		margin-bottom: .5rem;
 	}
 
+	#work #projects #project-info {
+		margin-bottom: 15%;
+	}
+
 	.project .title {
-		margin-top: 1rem;
+		margin-top: 1.5rem;
 		margin-bottom: 1rem;
 	}
 
@@ -1059,6 +1087,7 @@ Additional Styles
 
 
 @media only screen and (max-width: 460px) {
+
 	.footer-content span {
 		margin-left: 5%;
 	}
