@@ -1132,7 +1132,7 @@ h1 {
 }
 
 	#work #projects .twemary #project-info {
-	margin-bottom: 30%;
+	margin-bottom: 40%;
 }
 	
 	#work #projects .recipe-finder #project-info {
@@ -1188,5 +1188,26 @@ h1 {
 	@media only screen and (max-width: 404px) {
 		footer {
 			height: 8rem;
+		}
+	}
+
+	@media only screen and (max-width: 375px) {
+		#work #projects .twemary img {
+			margin-top: 15%;
+			width: 90%;
+			height: auto;
+			margin-bottom: 10%;
+			
+		}
+		
+				#work #projects .recipe-finder img {
+			margin-top: 18%;
+					width: 90%;
+					height: auto;
+					margin-bottom: 8%;
+		}
+
+		.follow {
+			padding-top: 10%;
 		}
 	}
