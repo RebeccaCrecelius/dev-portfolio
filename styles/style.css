@@ -1069,6 +1069,10 @@ Additional Styles
 	.hamburger {
 		padding-left: 70%;
 	}
+
+	#work #projects #project-info {
+		margin-bottom: 30%;
+	}
 /*
 	#home-form.submitBtn {
 		padding-left: 35%;
@@ -1082,6 +1086,7 @@ Additional Styles
 		border: 2px solid;
 	}
 */
+
 }
 
 
@@ -1104,6 +1109,57 @@ Additional Styles
 		font-family: "Kanit", Tahoma, sans-serif;
 		font-weight: 500;
 	}
+}
+
+@media only screen and (max-width: 420px) {
+
+.quote {
+	width: 80%;
+}
+
+h1 {
+	font-size: 2.25rem;
+}
+
+#intro button {
+	background: white;
+	color: rgb(38, 38, 38);
+} 
+
+#intro button:hover {
+	background: #292230;
+	color: #dfdee0;
+}
+
+	#work #projects .twemary #project-info {
+	margin-bottom: 30%;
+}
+	
+	#work #projects .recipe-finder #project-info {
+	margin-bottom: 40%;
+}	
+
+.quiz {
+	display: none;
+}
+
+#work #projects .recipe-finder img {
+	margin-bottom: 20%;
+}	
+.follow {
+	padding-top: 10%;
+}
+
+.follow img {
+	width: 10%;
+	height: auto;
+	margin-left: 0;
+}
+
+.follow img:first-child {
+	width: 10%;
+	height: auto;
+}
 }
 
 @media only screen and (max-width: 402px) {
