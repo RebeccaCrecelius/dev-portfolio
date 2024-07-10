@@ -44,7 +44,7 @@ header {
 	float: left;
 	width: 40px;
 	height: auto;
-	padding-top: 10px;
+	padding-top: 12px;
 	margin-left: 40px;
 }
 
@@ -82,8 +82,8 @@ Intro and About
 	display: flex;
 	width: 55%;
 	font-weight: 300;
-	font-size: 1rem;
-	margin-top: 0.5rem;
+	font-size: 1.05rem;
+	margin-top: 0.25rem;
 	line-height: 1.5rem;
 	margin-bottom: 1rem;
 }
@@ -117,7 +117,7 @@ h1 {
 	font-family: 'Pt Serif', 'Times New Roman', serif;
 	font-weight: 400;
 	font-size: 1.75rem;
-	margin: 1.5rem 1rem 1rem 0;
+	margin: 1.25rem 1rem 1rem 0;
 	padding-left: 1rem;
 }
 
@@ -443,6 +443,11 @@ More
 	color: blue;
 }
 
+
+#more .company span {
+	text-align: right;
+}
+
 #more .hover {
 	text-decoration: none;
 	color: black;
@@ -716,9 +721,8 @@ ul.follow-links li {
 }
 
 ul.follow-links img {
-	width: 2%;
+	width: 2.25%;
 	height: auto;
-	margin-right: 1rem;
 	margin-bottom: .5rem;
 	margin-left: 1rem;
 }
@@ -830,6 +834,12 @@ Additional Styles
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 	background-color: rgb(223, 222, 224);
+}
+
+@media only screen and (min-width: 1000px) {
+	.footer-links {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 1000px) {
@@ -962,6 +972,10 @@ Additional Styles
 		padding-left: 80%;
 		margin-top: 5%;
 	}
+
+	.hamburger img {
+		display: inline-block;
+	}
 /*
 
 	.hamburger.active .bar:nth-child(2) {
@@ -1010,6 +1024,7 @@ Additional Styles
 	font-weight: 500;
 	border: 2px solid;
 	border-radius: 0;
+}
 }
 
 
