@@ -50,9 +50,7 @@ header {
 main {
 	clear: both;
 	position: relative;
-	margin-top: 10%;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-top: 5%;
 }
 
 .main-nav li {
@@ -79,6 +77,22 @@ a:hover {
 /*--------------------------------
 Intro and About
 --------------------------------*/
+.quote {
+	display: flex;
+	width: 60%;
+	font-weight: 300;
+	font-size: 1rem;
+	margin-top: 0.5rem;
+	line-height: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.hero {
+	background: rgb(223, 222, 224);
+	margin: 0;
+	padding: 5%;
+}
+
 .profile-pic {
 	width: 40%;
 	height: auto;
@@ -102,7 +116,7 @@ h1 {
 	font-family: 'Pt Serif', 'Times New Roman', serif;
 	font-weight: 400;
 	font-size: 1.75rem;
-	margin: 1.5rem 1rem 1rem 1rem;
+	margin: 1.5rem 1rem 1rem 0;
 	padding-left: 1rem;
 }
 
@@ -135,7 +149,7 @@ p {
 	font-family: 'Pt Serif', 'Times New Roman', serif;
 	font-weight: 400;
 	font-size: 1.5rem;
-	margin: 1rem;
+	margin: 1rem 1rem 1rem 0;
 	padding-left: 1rem;
 }
 
@@ -165,8 +179,8 @@ button {
 	width: 75%;
 	font-family: "Kanit", Tahoma, sans-serif;
 	font-weight: 500;
-	margin-left: 2rem;
 	border: 3px solid;
+	background: white;
 }
 
 button:hover {
@@ -249,6 +263,31 @@ Work
 
 #work {
 	clear: both;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.title .projects {
+	margin-left: 0;
+	padding-left: 1rem;
+}
+
+#projects {
+	margin-left: 1rem;
+	display: flex;
+	align-items: left;
+	flex-wrap: wrap;
+	column-gap: 8%;
+	flex-direction: row;
+}
+
+#projects .twemary, 
+#projects .recipe-finder {
+	width: 45%;
+}
+
+#work ul {
+	margin-bottom: 2rem;
 }
 
 #work li {
@@ -264,33 +303,26 @@ Work
 
 #work .languages li {
 	float: left;
-	margin: 0 20px;
+	margin: 0 20px 10px 0;
 	list-style-type: disc;
 }
 
 #work ul {
+	margin-top: .75rem;
 	text-align: center;
 }
 
-#projects {
-	clear: both;
-	display: flex;
-	flex-wrap: wrap;
-	column-gap: 15px;
-	justify-content: center;
-	align-items: center;
-}
-
 .project img {
-	width: 375px;
+	width: 100%;
 	height: auto;
 }
 
 .project p {
-	max-width: 100%;
-	margin-top: 1rem;
+	margin-top: .5rem;
 	height: 1.5rem;
 	padding-left: none;
+	font-weight: 300;
+	font-size: 1rem;
 }
 
 .title {
@@ -302,30 +334,23 @@ Work
 	font-family: 'Pt Serif', 'Times New Roman', serif;
 	font-weight: 400;
 	color: blue;
+	padding-bottom: .75rem;
 }
 
 .project span a {
 	color: blue;
 }
 
-
 .project img {
-	margin-top: .25rem;
-	border: solid;
-}
-
-.recipe-finder {
-	margin-top: 3%;
+	margin-top: 4.25rem;;
+	border: 1px solid #292230;
+	box-shadow: 10px 5px 5px #292230;
 	margin-left: 0;
 }
 
-.recipe-finder img {
-	border: 1px solid #292230;
-	box-shadow: 10px 5px 5px #292230;
-}
 
 .recipe-finder span {
-	display: block;
+	display: flex;
 	margin-bottom: 2px;
 }
 
@@ -333,7 +358,12 @@ Work
 More
 ---------------------------------------------*/
 
-#more {
+#fun-facts {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#more{
 	margin-left: 1rem;
 	display: flex;
 	align-items: left;
@@ -412,6 +442,12 @@ More
 	color: blue;
 }
 
+#more .hover {
+	text-decoration: none;
+	color: black;
+	text-align: left;
+	margin-top: 0rem;
+}
 
 #fun-facts-title p {
 	font-family: 'Pt Serif', 'Times New Roman', serif;
@@ -419,7 +455,7 @@ More
 	font-size: 1.5rem;
 	margin: 1rem;
 	padding-left: .2rem;
-	padding-bottom: 1.5rem;
+	padding-bottom: 1rem;
 	padding-top: .5rem;
 }
 
@@ -431,6 +467,10 @@ More
 Form 
 =============================*/
 
+.contact-form {
+	background: rgb(223, 222, 224);
+}
+
 .form-section h3 {
 	clear: both;
 	font-size: 2.5rem;
@@ -441,11 +481,12 @@ Form
 }
 
 .form-section {
-	padding-bottom: 3rem;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-bottom: 0;
 }
 
 .form-section p {
-	margin-left: 1rem;
 	padding-left: 1rem;
 	font-family: "Kanit", Tahoma, sans-serif;
 	font-size: 1.5rem;
@@ -456,19 +497,20 @@ Form
 	font-family: 'Pt Serif', 'Times New Roman', serif;
 	font-weight: 400;
 	font-size: 1.5rem;
-	margin: 1rem;
-	padding-left: 1rem;
+	margin: 1rem 1rem 0 0;
 }
 
 
 .form {
 	display: flex;
 	justify-content: left;
+	width: 100%;
 }
 
 .input-container {
 	position: relative;
-	margin: .5rem 1rem 1rem 1rem;
+	margin: .5rem 1rem 0 0;
+	width: 100%;
 }
 
 label,
@@ -487,7 +529,6 @@ label {
 input {
 	height: 2.5rem;
 	top: 0px;
-	left: 0px;
 	width: 100%;
 	padding: .5rem .5rem .5rem 1rem;
 	border: 1px solid black;
@@ -497,12 +538,11 @@ input {
 }
 
 .form .submitBtn {
-	justify-content: center;
 	font-size: 1rem;
 	font-family: "Kanit", Tahoma, sans-serif;
 	font-weight: 500;
-	width: 90%;
-	margin-left: 1rem;
+	width: 100%;
+	background: white;
 }
 
 .submitBtn:hover {
@@ -510,12 +550,17 @@ input {
 	color: #dfdee0;
 }
 
-.form-group {
-	display: flex;
-}
-
 .form-group .form .submitBtn {
 	border: 3px solid;
+	margin-left: 1rem;
+}
+
+.follow-home {
+	padding-left: 2rem;
+}
+
+.follow-home h2 {
+	margin-top: 0;
 }
 
 /*==============================
@@ -535,7 +580,7 @@ footer {
 
 .footer-content span {
 	float: left;
-	margin-left: 10%;
+	margin-left: 3rem;
 	margin-top: 1.5rem;
 	font-family: "Kanit", Tahoma, sans-serif;
 	font-weight: 500;
@@ -559,10 +604,12 @@ Contact Page Form
 
 .form-section {
 	padding-bottom: 3rem;
+	padding-top: 2%;
+	margin-top: 2%;
 }
 
 .contact-page-form {
-	float: right;
+	display: flex;
 	margin-left: 20%;
 	margin-right: 20%;
 }
@@ -644,8 +691,15 @@ textarea {
 	width: 100%;
 }
 
+
+.follow {
+	margin-left: 1rem;
+}
+
+
 .follow h2 {
 	padding-bottom: 1.5rem;
+	font-size: 1rem;
 }
 
 ul.follow-links li {
@@ -653,11 +707,15 @@ ul.follow-links li {
 }
 
 ul.follow-links img {
-	width: 4%;
+	width: 3%;
 	height: auto;
 	margin-right: 1rem;
 	margin-left: 1rem;
 	margin-bottom: 2rem;
+}
+
+.twtiter img {
+	width: 2.5%;
 }
 
 .email {
