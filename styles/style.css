@@ -343,11 +343,16 @@ Work
 }
 
 .project img {
-	margin-top: 3.25rem;;
+	margin-top: 8%;
 	border: 1px solid #292230;
 	box-shadow: 10px 5px 5px #292230;
 	margin-left: 0;
 }
+
+#work #projects .recipe-finder p {
+	margin-bottom: 13%;
+}
+
 
 
 .recipe-finder span {
