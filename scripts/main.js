@@ -1,4 +1,4 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
     window.addEventListener("scroll", runOnScroll);
 
     function runOnScroll() {
@@ -9,8 +9,8 @@ $(document).ready(function () {
     $('.hotspot').click(function () {
         $(this).toggleClass('clicked');
     });
-*/
 });
+*/
 
 
 document.querySelector('.hamburger-button').addEventListener('click', function() {

@@ -51,8 +51,8 @@ main {
 	clear: both;
 	position: relative;
 	margin-top: 10%;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .main-nav li {
@@ -320,8 +320,8 @@ Work
 }
 
 .recipe-finder img {
-	width: 400px;
-	height: auto;
+	border: 1px solid #292230;
+	box-shadow: 10px 5px 5px #292230;
 }
 
 .recipe-finder span {
@@ -336,34 +336,70 @@ More
 #more {
 	margin-left: 1rem;
 	display: flex;
+	align-items: left;
 	flex-wrap: wrap;
 	column-gap: 8%;
+	flex-direction: row;
+}
+
+.design-work,
+.company {
+	display: flex;
 	flex-direction: column;
+	width: 45%
 }
 
 #more .design-work img,
 #more .company img {
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 1rem;
-	width: 40%;
+	width: 100%;
 }
 
+#more .design-work img, 
+.company img {
+	border: 1px solid #292230;
+	box-shadow: 10px 5px 5px #292230;
+}
+
+#fun-facts #more .design-work img:hover,
+#fun-facts #more .company img:hover {
+	width: 200%;
+	height: auto;
+	flex-direction: row;
+	z-index: 1;
+  }
+
+  #fun-facts #more .company img:hover {
+	display: block;
+	width: 75vw;
+	margin-left: calc(100px - 110%);
+  }
+
+.design-work p,
+.company p {
+	width: 100%;
+	font-weight: 300;
+	font-size: 1rem;
+	margin-top: 0.5rem;
+}
+
+/*
 #more embed {
 	border: solid;
 	box-shadow: 10px 5px 5px #292230;
 	width: 500px;
 	height: 500px;
 }
+*/
 
 #more h3 {
-	padding-left: 1rem;
 	/*	text-align: center; */
-	margin-bottom: 2.5%;
+	margin-bottom: 1%;
+	width: 100%;
 }
 
-#more p {
+#more span {
 	margin-bottom: .25rem;
+	margin-top: 1rem;
 	padding-bottom: .25rem;
 	text-decoration: underline;
 	color: blue;
@@ -372,8 +408,23 @@ More
 	font-size: 1rem;
 }
 
-#more p a {
+#more span a {
 	color: blue;
+}
+
+
+#fun-facts-title p {
+	font-family: 'Pt Serif', 'Times New Roman', serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin: 1rem;
+	padding-left: .2rem;
+	padding-bottom: 1.5rem;
+	padding-top: .5rem;
+}
+
+.design-work img {
+	margin-left: 0;
 }
 
 /*=============================
