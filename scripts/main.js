@@ -1,17 +1,3 @@
-/*$(document).ready(function () {
-    window.addEventListener("scroll", runOnScroll);
-
-    function runOnScroll() {
-        $('html,body').animate({ scrollTop: 0 }, 1000);
-        window.removeEventListener("scroll", runOnScroll);
-    };
-/*
-    $('.hotspot').click(function () {
-        $(this).toggleClass('clicked');
-    });
-});
-*/
-
 const questions = [
     {
         question: "Which languages were used to make this website?",
@@ -71,10 +57,4 @@ setTimeOut (() => {
     }
 }, 2000);
 }
-
 showQuestion();
-
-document.querySelector('.hamburger-button').addEventListener('click', function() {
-    document.querySelector('.nav-links').style.display = 
-    (document.querySelector('.nav-links').style.display == 'none') ? 'block' : 'none';
- });
