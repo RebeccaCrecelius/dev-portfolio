@@ -1209,6 +1209,11 @@ h1 {
 			width: 90%;
 			height: auto;
 			margin-bottom: 8%;
+			font-size: .75rem;
+		}
+
+		#work #projects .recipe-finder p {
+			font-size: .95rem;
 		}
 
 		.follow {
