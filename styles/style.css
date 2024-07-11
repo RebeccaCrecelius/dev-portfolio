@@ -1191,20 +1191,24 @@ h1 {
 		}
 	}
 
-	@media only screen and (max-width: 380px) {
+	@media only screen and (max-width: 385px) {
+		#projects .project p {
+			margin-bottom: 1.75rem;
+		}
+		
 		#work #projects .twemary img {
-			margin-top: 15%;
+			margin-top: 10%;
 			width: 90%;
 			height: auto;
 			margin-bottom: 10%;
 			
 		}
 		
-				#work #projects .recipe-finder img {
-			margin-top: 30%;
-					width: 90%;
-					height: auto;
-					margin-bottom: 8%;
+		#work #projects .recipe-finder img {
+			margin-top: 25%;
+			width: 90%;
+			height: auto;
+			margin-bottom: 8%;
 		}
 
 		.follow {
