@@ -51,7 +51,7 @@ header {
 main {
 	clear: both;
 	position: relative;
-	margin-top: 5%;
+	margin-top: 3%;
 }
 
 .main-nav li {
@@ -80,12 +80,11 @@ Intro and About
 --------------------------------*/
 .quote {
 	display: flex;
-	width: 53%;
+	width: 45%;
 	font-weight: 300;
 	font-size: 1.05rem;
-	margin-top: 0.25rem;
 	line-height: 1.5rem;
-	margin-bottom: 1rem;
+	margin-bottom: .5rem;
 }
 
 .hero {
@@ -95,7 +94,7 @@ Intro and About
 }
 
 .profile-pic {
-	width: 40%;
+	width: 33%;
 	height: auto;
 	float: right;
 	position: relative;
@@ -154,8 +153,12 @@ p {
 	padding-left: 1rem;
 }
 
+#intro {
+	margin-bottom: 0;
+}
+
 #intro h2 {
-	margin-top: 4rem;
+	margin-top: 0;
 }
 
 #intro #welcome {
@@ -359,6 +362,13 @@ Work
 
 .project img {
 	margin-top: 7%;
+	border: 1px solid #292230;
+	box-shadow: 10px 5px 5px #292230;
+	margin-left: 0;
+}
+
+.project img.food{
+	margin-top: 10%;
 	border: 1px solid #292230;
 	box-shadow: 10px 5px 5px #292230;
 	margin-left: 0;
