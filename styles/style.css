@@ -170,7 +170,8 @@ p {
 	text-decoration: underline;
 }
 
-button {
+button,
+.game {
 	margin: .75rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
@@ -182,6 +183,12 @@ button {
 	font-weight: 500;
 	border: 3px solid;
 	background: white;
+}
+
+.game {
+	padding-right: 3rem;
+	padding-left: 3rem;
+	margin-bottom: 1rem;
 }
 
 button:hover {
