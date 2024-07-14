@@ -864,6 +864,10 @@ Additional Styles
 }
 
 @media only screen and (max-width: 1000px) {
+	.game {
+		display: none;
+	}
+
 	.profile-pic {
 		display: none;
 	}
@@ -895,6 +899,7 @@ Additional Styles
 
 
 @media only screen and (max-width: 760px) {
+
 	.hero {
 		padding-top: 20%;
 	}
