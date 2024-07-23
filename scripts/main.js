@@ -8,7 +8,7 @@ const questions = [
     {
         question: "The best baseball team in Texas is which of the following?",
         choices: ["Cowboys", "Vikings", "Texas Rangers"],
-        correct: 1
+        correct: 2
     },
 
     {
@@ -31,11 +31,9 @@ function showQuestion() {
 });
 
 
-    const feedback = document.getElementById("feedback");
-        feedback.textContent = "";
+const feedback = document.getElementById("feedback");
+    feedback.textContent = "";
 }
-
-
 
 function checkAnswer(selected) {
 const feedback = document.getElementById("feedback");
